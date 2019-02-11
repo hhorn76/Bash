@@ -1,16 +1,19 @@
 #!/bin/bash
 
+strPassword='8yaThaDCTGHxG8fu'
+
 # Function to encrypt password
 encryptPw (){
-	myPassword=$(echo $1 | base64)
-	echo $myPassword
+	myEncryptedPassword=$(echo $1 | base64)
 }
 
 # Function to encrypt password
 decryprPw () {
-	echo $1 | base64 --decode 
-
+	myDecryptedPassword=$(echo "${1}" | base64 --decode)
 }
 
 encryptPw '8yaThaDCTGHxG8fu'
-decryprPw $myPassword
+echo "My Encrypted Password is: $myEncryptedPassword"
+
+decryprPw $myEncryptedPassword
+echo "My Decrypted Password is: $myDecryptedPassword"
