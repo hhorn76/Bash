@@ -1,4 +1,5 @@
 #!/bin/bash
+# written by Heiko 11.02.2019
 
 myPassword='password'
 
