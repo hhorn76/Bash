@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bashf
+# written by Heiko 11.02.2019
 
 strPassword='8yaThaDCTGHxG8fu'
 
