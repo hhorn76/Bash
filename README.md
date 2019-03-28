@@ -1,2 +1,2 @@
 # Bash
-Bash Functions and Scripts
+Bash Functions and Scripts for macOS
